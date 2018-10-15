@@ -1,0 +1,43 @@
+{
+  "name": "libs",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Aleksandar Zivkovic <veselignome@gmail.com>",
+  "homepage": "https://github.com/veselignome/vg#readme",
+  "license": "MIT",
+  "main": "lib/libs.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veselignome/vg.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/veselignome/vg/issues"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.7.0",
+    "eslint-loader": "^2.1.1",
+    "webpack": "^4.20.2"
+  }
+}
