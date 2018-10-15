@@ -1,5 +1,6 @@
 {
   "name": "libs",
+  "private": true, 
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Aleksandar Zivkovic <veselignome@gmail.com>",
